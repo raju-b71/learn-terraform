@@ -28,3 +28,8 @@ output "y" {
 output "z_x" {
   value = z_map
 }
+#we can declare empty variables,but data can be sent from a file called tf vars
+variable "env" {}
+output "env" {
+  value = "var.env"
+}
