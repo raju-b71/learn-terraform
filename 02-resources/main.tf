@@ -3,7 +3,7 @@ resource "aws_instance" "frontend" {
   instance_type = "t3.micro"
   vpc_security_group_ids = ["sg-0ba469f077949363e"]
   tags = {
-    name = "frontend"
+    Name = "frontend"
   }
 }
 
@@ -12,7 +12,7 @@ resource "aws_instance" "backend" {
   instance_type = "t3.micro"
   vpc_security_group_ids = ["sg-0ba469f077949363e"]
   tags = {
-    name = "backend"
+    Name = "backend"
   }
 }
 
@@ -21,7 +21,7 @@ resource "aws_instance" "mysql" {
   instance_type = "t3.micro"
   vpc_security_group_ids = ["sg-0ba469f077949363e"]
   tags = {
-    name = "mysql"
+    Name = "mysql"
   }
 }
 
