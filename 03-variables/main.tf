@@ -1,5 +1,5 @@
 variable "x" {
-  default = "1"
+  default = 54
 }
 #print the output
 output "x" {
