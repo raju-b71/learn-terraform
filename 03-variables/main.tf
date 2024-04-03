@@ -25,6 +25,6 @@ output "y" {
   value = var.y_list
 }
 
-output "z_map" {
-  value = "z_x"
+output "z_x" {
+  value = z_map
 }
