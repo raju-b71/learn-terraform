@@ -17,7 +17,7 @@ default = "t3.micro"
 }
 
 variable "security_groups" {
-default = "sg-0ba469f077949363e"
+default = ["sg-0ba469f077949363e"]
 }
 
 variable "instance_types" {
