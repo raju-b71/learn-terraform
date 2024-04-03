@@ -12,7 +12,7 @@ resource "aws_instance" "test" {
     host     = self.public_ip
   }
   inline = [
-    "sudo dnf istall nginx",
+    "sudo dnf install nginx",
     "sudo systemctl start nginx",
   ]
 
