@@ -33,3 +33,10 @@ variable "env" {}
 output "env" {
   value = "var.env"
 }
+
+#autotfvars will pick automativally
+variable "common" {}
+output "common" {
+  value = "var.common"
+}
+
