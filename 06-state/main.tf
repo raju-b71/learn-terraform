@@ -1,7 +1,7 @@
 terraform {
   backend "s3" {
     bucket = "raj-bucket7799"
-    key = "mug/state"
+    key = "testing/state"
     region = "us-east-1"
   }
 }
